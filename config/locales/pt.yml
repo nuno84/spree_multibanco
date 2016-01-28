@@ -6,3 +6,5 @@ pt:
     active: activo
     inactive: inactivo
     multibanco: Multibanco
+    multibanco_entity: Entidade
+    multibanco_reference: Referência
