@@ -1,7 +1,0 @@
-pt:
-  multibanco_provider_name: Nome
-  multibanco_provider_entity: Entidade
-  multibanco_provider_subentity: Subentidade
-  active: activo
-  inactive: inactivo
-  multibanco: multibanco
