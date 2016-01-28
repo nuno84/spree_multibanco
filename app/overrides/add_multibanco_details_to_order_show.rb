@@ -6,15 +6,15 @@ Deface::Override.new(
     <% if multibanco_payment = @order.payments.from_multibanco.first %>
       <table>
         <tr>
-          <td><%= Spree.t(:multibanco_entity) %></td>
+          <td><%= I18n.t('spree.multibanco_entity') %></td>
           <td><%= multibanco_payment.multibanco_provider.entity %></td>
         </tr>
         <tr>
-          <td><%= Spree.t(:multibanco_reference) %></td>
+          <td><%= I18n.t('spree.multibanco_reference') %></td>
           <td><%= multibanco_payment.multibanco_reference %></td>
         </tr>
         <tr>
-          <td><%= Spree.t(:amount) %></td>
+          <td><%= I18n.t('spree.amount') %></td>
           <td><%= @order.display_item_total.to_html %></td>
         </tr>
       </table>
